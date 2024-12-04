@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Автор</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #e8f5d9;
+        }
+        .container {
+            text-align: center;
+            padding: 40px;
+            max-width: 800px;
+            margin: auto;
+            background-color: #22B89F;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .title {
+            font-size: 2em;
+            font-weight: bold;
+            color: #4CAF50;
+        }
+        .description {
+            font-size: 1.2em;
+            color: #555;
+            margin: 20px 0;
+        }
+        .buttons {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+        .buttons a {
+            text-decoration: none;
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        .buttons a:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+        <div class="title">Команда</div>
+	<p><div class="title">Івась Тарас</div></p>
+        <div class="description">
+      <p>Я народився у 2006 році.Зараз я є студентом першого курсу Тернопільського національного технічного університету (ТНТУ).Я захоплююся процесом навчання і прагну реалізувати свої знання на практиці.</p>&nbsp; </div>
+        <div class="buttons"><a href="index.html"><strong>Про мене</strong>&nbsp;</a>
+            <a href="Завдання.html">Завдання&nbsp;</a>
+			<a href="Автор.html">Автор&nbsp;</a>
+        </div>
+    </div>
+</body>
+</html>
